@@ -63,7 +63,9 @@ public class MainApp {
          System.out.println("Email = "+carOwner.getEmail());
          System.out.println();
       } catch (NoResultException e){
+         System.out.println();
          System.out.println("Car owner didn't exist, check the request parameters");
+         System.out.println();
       }
       context.close();
    }
